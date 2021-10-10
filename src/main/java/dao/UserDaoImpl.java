@@ -9,6 +9,9 @@ public class UserDaoImpl implements UserDao {
     public void init(){
         System.out.println("初始化方法...");
     }
+    public void check(){
+        System.out.println("JAINCHA.....");
+    }
 
     public void destroy(){
         System.out.println("摧毁方法...");
