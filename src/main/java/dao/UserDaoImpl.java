@@ -13,9 +13,6 @@ public class UserDaoImpl implements UserDao {
         System.out.println("JAINCHA.....");
     }
 
-    public void destroy(){
-        System.out.println("摧毁方法...");
-    }
     @Override
     public void save() {
         System.out.println("saving running.....");
